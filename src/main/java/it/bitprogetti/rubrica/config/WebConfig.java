@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
-@ComponentScan
+@ComponentScan(basePackages = "it.bitprogetti.rubrica.controller")
 public class WebConfig implements WebMvcConfigurer{
 
 	@Override
